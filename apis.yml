@@ -1,8 +1,24 @@
 aid: maxion-therapeutics
 name: Maxion Therapeutics
-description: Maxion Therapeutics is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Maxion Therapeutics is a UK biotechnology company developing protein therapeutics
+  using its proprietary KnotBody technology, which fuses venom-derived knottin miniproteins
+  with antibodies to drug previously untreatable ion channel- and GPCR-driven diseases across
+  autoimmune, inflammatory, and related therapeutic areas. Maxion is a preclinical-stage
+  drug-discovery company, not an API or developer-platform provider; this profile is maintained
+  in the API Evangelist network for portfolio-tracking purposes and has no public API, developer
+  portal, SDK, or machine-readable API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61fc684ea6f5f6020b3d2679/650b8e45cdd937d091133af9_Frame%20272.png
 url: https://raw.githubusercontent.com/api-evangelist/maxion-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Drug Discovery
+- Antibodies
+- Ion Channels
+- GPCR
+- Protein Engineering
+- Pharmaceuticals
 apis: []
+common:
+- type: Website
+  url: https://www.maxiontherapeutics.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
